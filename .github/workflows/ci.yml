@@ -13,6 +13,6 @@ jobs:
 
     steps:
       # uses lean standard action with all default input values
-      - uses: leanprover/lean-action@6-detect_mathlib-assumes-a-lakefilelean-should-also-support-lakefiletoml
+      - uses: leanprover/lean-action@release/v1-beta
         with:
           test: false
