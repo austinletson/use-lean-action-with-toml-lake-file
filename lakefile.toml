@@ -7,3 +7,8 @@ name = "UseLeanActionWithTomlLakeFile"
 [[lean_exe]]
 name = "actiontomltest"
 root = "Main"
+
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4"
