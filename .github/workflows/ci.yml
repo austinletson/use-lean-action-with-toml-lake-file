@@ -1,0 +1,18 @@
+name: CI
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # uses lean standard action with all default input values
+      - uses: leanprover/lean-action@6-detect_mathlib-assumes-a-lakefilelean-should-also-support-lakefiletoml
+        with:
+          test: false

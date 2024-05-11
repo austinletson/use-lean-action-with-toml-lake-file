@@ -1,0 +1,9 @@
+name = "«use-lean-action-with-toml-lake-file»"
+defaultTargets = ["use-lean-action-with-toml-lake-file"]
+
+[[lean_lib]]
+name = "UseLeanActionWithTomlLakeFile"
+
+[[lean_exe]]
+name = "use-lean-action-with-toml-lake-file"
+root = "Main"
