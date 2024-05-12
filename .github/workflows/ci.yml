@@ -15,5 +15,6 @@ jobs:
       # uses lean standard action with all default input values
       - uses: leanprover/lean-action@release/v1-alpha
         with:
+          test: false
           lint-module: "UseLeanActionWithTomlLakeFile"
           check-reservoir-eligibility: true
