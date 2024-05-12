@@ -13,7 +13,7 @@ jobs:
 
     steps:
       # uses lean standard action with all default input values
-      - uses: leanprover/lean-action@release/v1-beta
+      - uses: leanprover/lean-action@release/v1-alpha
         with:
           test: true
           lint-module: "UseLeanActionWithTomlLakeFile"
