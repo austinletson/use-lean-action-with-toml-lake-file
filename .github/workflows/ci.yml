@@ -16,6 +16,6 @@ jobs:
       # uses lean standard action with all default input values
       - uses: leanprover/lean-action@main
         with:
-          mathlib-cache: false
+          mathlib-cache: true
           test: false
           lint-module: "UseLeanActionWithTomlLakeFile"
