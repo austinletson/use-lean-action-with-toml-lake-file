@@ -13,8 +13,7 @@ jobs:
 
     steps:
       # uses lean standard action with all default input values
-      - uses: leanprover/lean-action@release/v1-alpha
+      - uses: leanprover/lean-action@main
         with:
           test: false
           lint-module: "UseLeanActionWithTomlLakeFile"
-          check-reservoir-eligibility: true
