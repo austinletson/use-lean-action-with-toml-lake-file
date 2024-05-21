@@ -14,8 +14,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       # uses lean standard action with all default input values
-      - uses: leanprover/lean-action@main
+      - uses: leanprover/lean-action@v1-beta
         with:
-          mathlib-cache: hello
           test: false
           lint-module: "UseLeanActionWithTomlLakeFile"
+          check-reservoir-elgibility: true
