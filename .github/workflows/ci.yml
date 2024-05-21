@@ -18,4 +18,4 @@ jobs:
         with:
           test: false
           lint-module: "UseLeanActionWithTomlLakeFile"
-          check-reservoir-elgibility: true
+          check-reservoir-eligibility: true
